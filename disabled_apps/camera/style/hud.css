@@ -62,7 +62,7 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-color: rgba(0,0,0,0.12);
-  background-clip: padding-box; /* 1 */
+  background-clip: content-box; /* 1 */
   border: solid 1.5rem transparent; /* 1 */
   -moz-box-sizing: content-box; /* 1 */
   color: #fff;

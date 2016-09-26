@@ -5,7 +5,7 @@ gaia-container {
   flex-flow: row wrap;
   align-content: flex-start;
   transition: opacity 0.2s;
-  box-sizing: padding-box;
+  box-sizing: content-box;
   padding: 0 0.6rem;
   padding-bottom: 6rem;
 }

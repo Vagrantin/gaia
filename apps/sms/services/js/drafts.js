@@ -7,9 +7,9 @@
   'use strict';
 
   [
-    ['asyncStorage', '/shared/js/async_storage.js'],
-    ['EventDispatcher', '/shared/js/event_dispatcher.js'],
-    ['Utils', '/views/shared/js/utils.js']
+    ['asyncStorage', '../../shared/js/async_storage.js'],
+    ['EventDispatcher', '../../shared/js/event_dispatcher.js'],
+    ['Utils', '../../views/shared/js/utils.js']
   ].forEach(([dependencyName, dependencyPath]) => {
     if (!(dependencyName in self)) {
       importScripts(dependencyPath);

@@ -11,45 +11,45 @@
 'use strict';
 
 
-require('/shared/js/event_dispatcher.js');
-require('/shared/js/lazy_loader.js');
-require('/shared/js/gesture_detector.js');
-require('/shared/js/sticky_header.js');
-require('/shared/test/unit/mocks/mock_gesture_detector.js');
-require('/shared/test/unit/mocks/mock_l20n.js');
-require('/shared/test/unit/mocks/mock_contact_photo_helper.js');
-require('/shared/test/unit/mocks/mock_async_storage.js');
-require('/shared/test/unit/mocks/mock_lazy_loader.js');
-require('/shared/test/unit/mocks/mock_multi_sim_action_button.js');
+require('../shared/js/event_dispatcher.js');
+require('../shared/js/lazy_loader.js');
+require('../shared/js/gesture_detector.js');
+require('../shared/js/sticky_header.js');
+require('../shared/test/unit/mocks/mock_gesture_detector.js');
+require('../shared/test/unit/mocks/mock_l20n.js');
+require('../shared/test/unit/mocks/mock_contact_photo_helper.js');
+require('../shared/test/unit/mocks/mock_async_storage.js');
+require('../shared/test/unit/mocks/mock_lazy_loader.js');
+require('../shared/test/unit/mocks/mock_multi_sim_action_button.js');
 
-require('/views/shared/test/unit/mock_contact.js');
-require('/views/shared/test/unit/mock_time_headers.js');
-require('/views/shared/test/unit/mock_information.js');
-require('/views/shared/test/unit/mock_settings.js');
-require('/views/shared/test/unit/mock_inter_instance_event_dispatcher.js');
-require('/views/shared/test/unit/mock_app.js');
-require('/services/test/unit/activity/mock_activity_client.js');
-require('/views/shared/test/unit/utils_mockup.js');
-require('/views/shared/test/unit/messages_mockup.js');
-require('/views/shared/test/unit/thread_list_mockup.js');
+require('../views/shared/test/unit/mock_contact.js');
+require('../views/shared/test/unit/mock_time_headers.js');
+require('../views/shared/test/unit/mock_information.js');
+require('../views/shared/test/unit/mock_settings.js');
+require('../views/shared/test/unit/mock_inter_instance_event_dispatcher.js');
+require('../views/shared/test/unit/mock_app.js');
+require('../services/test/unit/activity/mock_activity_client.js');
+require('../views/shared/test/unit/utils_mockup.js');
+require('../views/shared/test/unit/messages_mockup.js');
+require('../views/shared/test/unit/thread_list_mockup.js');
 
-require('/views/shared/js/utils.js');
-require('/views/shared/js/selection_handler.js');
-require('/views/shared/js/navigation.js');
-require('/views/conversation/js/link_helper.js');
-require('/services/js/drafts.js');
-require('/views/shared/js/contacts.js');
-require('/views/conversation/js/subject_composer.js');
-require('/views/conversation/js/compose.js');
-require('/services/js/threads.js');
-require('/services/js/message_manager.js');
-require('/views/conversation/js/attachment.js');
-require('/views/inbox/js/inbox.js');
-require('/views/conversation/js/recipients.js');
-require('/views/conversation/js/conversation.js');
-require('/views/shared/js/waiting_screen.js');
-require('/views/shared/js/startup.js');
-require('/views/shared/js/task_runner.js');
+require('../views/shared/js/utils.js');
+require('../views/shared/js/selection_handler.js');
+require('../views/shared/js/navigation.js');
+require('../views/conversation/js/link_helper.js');
+require('../services/js/drafts.js');
+require('../views/shared/js/contacts.js');
+require('../views/conversation/js/subject_composer.js');
+require('../views/conversation/js/compose.js');
+require('../services/js/threads.js');
+require('../services/js/message_manager.js');
+require('../views/conversation/js/attachment.js');
+require('../views/inbox/js/inbox.js');
+require('../views/conversation/js/recipients.js');
+require('../views/conversation/js/conversation.js');
+require('../views/shared/js/waiting_screen.js');
+require('../views/shared/js/startup.js');
+require('../views/shared/js/task_runner.js');
 
 
 var MocksHelperForSmsUnitTest = new MocksHelper([

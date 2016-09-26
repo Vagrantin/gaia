@@ -1,5 +1,5 @@
 .pin-dialog {
-  box-sizing: padding-box;
+  box-sizing: content-box;
   padding: 0 2rem;
   font-size: 1.4em;
 }

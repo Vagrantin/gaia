@@ -109,7 +109,7 @@ html[dir="rtl"] #modal-dialog-sad-face { float: right; }
   text-shadow: none;
   text-align: start;
   margin: 0;
-  background: #4E4E4E padding-box;
+  background: #4E4E4E content-box;
   border: solid 1px rgba(0, 0, 0, 0.25);
   padding-inline-start: 1.5rem;
   line-height: 2rem;

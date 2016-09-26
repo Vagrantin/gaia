@@ -1,7 +1,7 @@
 /* global TaskRunner, Promise */
 'use strict';
 
-require('/views/shared/js/task_runner.js');
+require('../views/shared/js/task_runner.js');
 
 suite('SMS App Unit-Test', function() {
 

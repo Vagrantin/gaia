@@ -320,7 +320,7 @@ module.exports = component.register('gaia-text-input', {
         color: var(--background);
         cursor: pointer;
         background: var(--input-clear-background, #999);
-        background-clip: padding-box;
+        background-clip: content-box;
         opacity: 0;
         pointer-events: none;
       }

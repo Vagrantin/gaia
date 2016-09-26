@@ -1970,12 +1970,12 @@ var ConversationView = {
 
     if (!this.selectionHandler) {
       LazyLoader.load([
-        '/views/shared/js/selection_handler.js',
-        '/shared/style/edit_mode.css',
-        '/shared/style/switches.css',
-        '/shared/style/tabs.css',
-        '/views/shared/style/edit-mode.css',
-        '/views/conversation/style/edit-mode.css'
+        '../views/shared/js/selection_handler.js',
+        '../shared/style/edit_mode.css',
+        '../shared/style/switches.css',
+        '../shared/style/tabs.css',
+        '../views/shared/style/edit-mode.css',
+        '../views/conversation/style/edit-mode.css'
         ], () => {
         this.selectionHandler = new SelectionHandler({
           // Elements

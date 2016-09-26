@@ -160,7 +160,7 @@ html[dir="rtl"] .chrome .controls .urlbar { text-align: right; }
   padding-bottom: 0;
   padding-inline-start: 3.85rem;
   padding-inline-end: 0.8rem;
-  box-sizing: padding-box;
+  box-sizing: content-box;
   overflow: hidden;
   float: none;
   background-color: rgba(204,204,204,0.2);

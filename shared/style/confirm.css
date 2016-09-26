@@ -35,7 +35,7 @@ form[role="dialog"][data-type="confirm"] > section {
   font-size: 2.2rem;
   color: #FAFAFA;
   padding: 0 1.5rem;
-  box-sizing: padding-box;
+  box-sizing: content-box;
   width: 100%;
   display: inline-block;
   overflow-y: scroll;

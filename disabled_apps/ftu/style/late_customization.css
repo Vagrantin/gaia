@@ -15,7 +15,7 @@
   padding: 0 1.5rem 0.5rem;
   display: flex;
   flex-direction: row;
-  box-sizing: padding-box;
+  box-sizing: content-box;
   align-items: center;
 }
 

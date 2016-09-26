@@ -18,22 +18,22 @@
   'use strict';
 
   const LAZY_DEPENDENCIES = [
-    '/services/js/messaging/messaging_client.js',
-    '/services/js/moz_mobile_connections/moz_mobile_connections_client.js',
-    '/shared/js/settings_listener.js',
-    '/shared/js/mime_mapper.js',
-    '/shared/js/option_menu.js',
-    '/shared/js/mobile_operator.js',
-    '/shared/elements/gaia_sim_picker/script.js',
-    '/views/shared/js/waiting_screen.js',
-    '/views/shared/js/errors.js',
-    '/views/shared/js/dialog.js',
-    '/views/shared/js/error_dialog.js',
-    '/views/conversation/js/link_action_handler.js',
-    '/views/shared/js/contact_renderer.js',
-    '/views/shared/js/activity_picker.js',
-    '/views/conversation/js/information.js',
-    '/views/shared/js/localization_helper.js'
+    '../services/js/messaging/messaging_client.js',
+    '../services/js/moz_mobile_connections/moz_mobile_connections_client.js',
+    '../shared/js/settings_listener.js',
+    '../shared/js/mime_mapper.js',
+    '../shared/js/option_menu.js',
+    '../shared/js/mobile_operator.js',
+    '../shared/elements/gaia_sim_picker/script.js',
+    '../views/shared/js/waiting_screen.js',
+    '../views/shared/js/errors.js',
+    '../views/shared/js/dialog.js',
+    '../views/shared/js/error_dialog.js',
+    '../views/conversation/js/link_action_handler.js',
+    '../views/shared/js/contact_renderer.js',
+    '../views/shared/js/activity_picker.js',
+    '../views/conversation/js/information.js',
+    '../views/shared/js/localization_helper.js'
   ];
 
   function initLazyDependencies() {

@@ -10,16 +10,16 @@
 
 'use strict';
 
-require('/views/shared/js/app.js');
+require('../views/shared/js/app.js');
 
-require('/services/test/unit/mock_message_manager.js');
-require('/services/test/unit/mock_drafts.js');
-require('/views/shared/test/unit/mock_navigation.js');
-require('/views/shared/test/unit/mock_inbox.js');
-require('/views/shared/js/utils.js');
-require('/views/shared/test/unit/mock_utils.js');
+require('../services/test/unit/mock_message_manager.js');
+require('../services/test/unit/mock_drafts.js');
+require('../views/shared/test/unit/mock_navigation.js');
+require('../views/shared/test/unit/mock_inbox.js');
+require('../views/shared/js/utils.js');
+require('../views/shared/test/unit/mock_utils.js');
 
-require('/shared/test/unit/mocks/mock_lazy_loader.js');
+require('../shared/test/unit/mocks/mock_lazy_loader.js');
 
 var mocksHelper = new MocksHelper([
   'Drafts',
@@ -40,7 +40,7 @@ suite('Startup >', function() {
     navigator.mozHasPendingMessage = () => {};
 
     sinon.stub(window, 'addEventListener');
-    require('/views/shared/js/startup.js', done);
+    require('../views/shared/js/startup.js', done);
   });
 
   suiteTeardown(function() {

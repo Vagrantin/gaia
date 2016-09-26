@@ -184,7 +184,7 @@ body.deg270 .zoom-bar {
   left: -0.7rem; /* -(width / 2) + (bar-width / 2) - border-width */
   width: 1.3rem;
   height: 1.3rem;
-  box-sizing: padding-box;
+  box-sizing: content-box;
   margin-bottom: -0.7rem; /* -(width / 2) + (bar-width / 2) - border-width */
   border-radius: 50%;
   border: 0.15rem solid #ffffff;

@@ -97,7 +97,7 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-color: rgba(0,0,0,0.4);
-  background-clip: padding-box;
+  background-clip: content-box;
   border: solid 1.8rem transparent;
   box-sizing: content-box;
   color: #fff;
