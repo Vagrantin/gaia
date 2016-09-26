@@ -74,5 +74,15 @@
      { "alarm": "/index.html" },
      { "sms-received": "/index.html" },
      { "notification": "/index.html" }
-  ]
+  ],
+  "connections": {
+    "costcontrolSmsQuery": {
+      "description": "Communicate between Usage and Sms",
+      "rules": {
+        "manifestURLs": [
+          "app://costcontrol.gaiamobile.org/manifest.webapp"
+        ]
+      }
+    }
+  }
 }

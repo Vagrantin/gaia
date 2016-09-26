@@ -35,7 +35,7 @@ How to run the application in Firefox
 ```bash
 export FIREFOX=/path/to/nightly/firefox
 PROFILE_FOLDER=profile-sms DEBUG=1 DESKTOP=0 make
-$FIREFOX -profile profile-sms --no-remote chrome://sms.gaiamobile.org
+$FIREFOX -profile profile-sms --no-remote app://sms.gaiamobile.org
 ```
 
 * Press _CTRL-SHIFT-M_ (or _Cmd-Opt-M_ on MacOS X) to switch the Responsive Mode.

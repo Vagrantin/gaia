@@ -567,12 +567,12 @@ var InboxView = {
 
     if (!this.selectionHandler) {
       LazyLoader.load([
-        '../views/shared/js/selection_handler.js',
-        '../shared/style/edit_mode.css',
-        '../shared/style/switches.css',
-        '../views/shared/style/edit-mode.css',
-        '../shared/style/tabs.css',
-        '../views/inbox/style/edit-mode.css'
+        '/views/shared/js/selection_handler.js',
+        '/shared/style/edit_mode.css',
+        '/shared/style/switches.css',
+        '/views/shared/style/edit-mode.css',
+        '/shared/style/tabs.css',
+        '/views/inbox/style/edit-mode.css'
         ], () => {
         this.selectionHandler = new SelectionHandler({
           // Elements
